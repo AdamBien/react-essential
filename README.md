@@ -5,7 +5,7 @@ Minimalistic React Project Setup
 
 Install: 
 
-1. [nodejs.org/en/](https://nodejs.org/en/)
+1. [nodejs.org](https://nodejs.org)
 2. [npmjs.com](https://www.npmjs.com)
 3. [webpack.github.io](http://webpack.github.io) with `(sudo) npm install webpack --global`
 
