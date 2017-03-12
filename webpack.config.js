@@ -4,7 +4,7 @@ module.exports = {
     app: ['./src/index.js']
   },
   output: {
-    path: './target/',
+    path: '/target/',
     filename: 'jar.js',
     publicPath:'target',
 
@@ -16,16 +16,14 @@ module.exports = {
     },
     inline: true,
     historyApiFallback: true,
-    watch: true,
     port: 8888,
-    progress:true
   },
   module: {
     loaders: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react'],
           plugins: ['transform-class-properties']

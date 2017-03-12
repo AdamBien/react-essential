@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --hot",
-    "build": "webpack --progress --colors",
+    "start": "webpack-dev-server",
+    "build": "webpack",
     "test": "karma start"
   },
   "keywords": [],
