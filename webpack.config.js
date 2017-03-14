@@ -4,7 +4,7 @@ module.exports = {
     app: ['./src/index.js']
   },
   output: {
-    path: '/target/',
+    path: __dirname + '/target/',
     filename: 'jar.js',
     publicPath:'target',
 
